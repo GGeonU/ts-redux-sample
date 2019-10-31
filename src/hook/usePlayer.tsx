@@ -4,7 +4,7 @@ import {useCallback} from "react";
 import {requestPlayerInfo} from "../modules/player";
 
 export default function usePlayer() {
-	// const player = useSelector((state: RootState => state.player.payload))
+
 	const dispatch = useDispatch();
 
 	const onSearchPlayerInfo = useCallback(
